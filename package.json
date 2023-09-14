@@ -1,1 +1,27 @@
+  "name": "",
+  "version": "1.0.0",
+  "description": "cricket unofficial scraper",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+     "cricket",
+     "darkside"
+  ],
+  "author": "DarkWinzo",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.12"
+  },
 
+ "homepage": "https://github.com/SL-CODE-LORDS/Esana-News#readme",
+ "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SL-CODE-LORDS/Esana-News.git"
+  },
+ "bugs": {
+    "url": "https://github.com/SL-CODE-LORDS/Esana-News/issues"
+  }
+}
