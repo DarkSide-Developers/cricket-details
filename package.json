@@ -1,5 +1,5 @@
  {
-  "name": "cricket-details",
+  "name": "@darkside-developers/cricket-details",
   "version": "1.0.0",
   "description": "cricket unofficial scraper",
   "main": "index.js",
