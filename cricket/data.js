@@ -1,6 +1,9 @@
-/*
-@Coded By : DarkWinzo
-**/
+/**
+ * @Project_Name : Cricket-Details
+ * @Project_Author : DarkWinzo
+ * @Project_Version : 1.0.0
+ * @Project_Details : Criket Unofficial Scraper
+     */
 
 (function (_0x4843d5, _0xe44b29) {
     const _0x2cd0ab = _0x4843d5();
