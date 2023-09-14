@@ -1,4 +1,4 @@
-  "name": "",
+  "name": "@darkside-developers/cricket-details",
   "version": "1.0.0",
   "description": "cricket unofficial scraper",
   "main": "index.js",
@@ -16,12 +16,12 @@
     "cheerio": "^1.0.0-rc.12"
   },
 
- "homepage": "https://github.com/SL-CODE-LORDS/Esana-News#readme",
+ "homepage": "https://github.com/DarkSide-Developers/cricket-details#readme",
  "repository": {
     "type": "git",
-    "url": "git+https://github.com/SL-CODE-LORDS/Esana-News.git"
+    "url": "git+https://github.com/DarkSide-Developers/cricket-details.git"
   },
  "bugs": {
-    "url": "https://github.com/SL-CODE-LORDS/Esana-News/issues"
+    "url": "https://github.com/DarkSide-Developers/cricket-details/issues"
   }
 }
