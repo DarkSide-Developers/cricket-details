@@ -24,4 +24,4 @@ class cricket {
     }
 }
 */
-module.exports = cricket
+module.exports = { cricket }
