@@ -1,4 +1,4 @@
-const cricket = require('./cricket/data.js')
+const { cricket } = require('./cricket/data.js')
 /*
 class cricket {
     constructor(match_url = '') {
