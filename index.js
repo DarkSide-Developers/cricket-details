@@ -1,5 +1,5 @@
 const cricket = require('./Data/cricket-details')
-
+/*
 class cricket {
     constructor(match_url = '') {
         this.match_url = match_url
@@ -23,5 +23,5 @@ class cricket {
             return await cricket.recently_match()
     }
 }
-
+*/
 module.exports = cricket
