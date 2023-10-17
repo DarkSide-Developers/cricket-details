@@ -2,7 +2,7 @@
  * @Project_Name : Cricket-Details
  * @Project_Author : DarkWinzo
  * @Project_Version : 1.0.0
- * @Project_Details : Criket Unofficial Scraper
+ * @Project_Details : Cricket Unofficial Scraper
  */
 
 (function (_0x4843d5, _0xe44b29) {
