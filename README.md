@@ -9,12 +9,47 @@ A Node.js library for fetching cricket match details, live scores, match news, f
 
 ## Installation & Result
 
+### Live Matches Urls
+```javascript
+const { cricket } = require('@darkside-developers/cricket-details');
+
+const matchDetails = cricket.match_url();
+console.log(matchDetails);
+```
+```javascript
+[
+  {
+    "status": true,
+    "creator": {
+      "name": "DarkWinzo",
+      "github": "@DarkWinzo"
+    },
+    "result": {
+      "title": "Match 1",
+      "link": "https://www.cricbuzz.com/match1"
+    }
+  },
+  {
+    "status": true,
+    "creator": {
+      "name": "DarkWinzo",
+      "github": "@DarkWinzo"
+    },
+    "result": {
+      "title": "Match 2",
+      "link": "https://www.cricbuzz.com/match2"
+    }
+  },
+  ...
+]
+```
+
 ### Recently Match Details
 ```javascript
 // Get Recently match details
-const cricket = require('@darkside-developers/cricket-details');
+const { cricket } = require('@darkside-developers/cricket-details');
 
-const upcomingMatches = cricket.cricket.upcoming_match();
+const upcomingMatches = cricket.upcoming_match();
 console.log(upcomingMatches);
 ```
 
