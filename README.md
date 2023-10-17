@@ -37,3 +37,40 @@ console.log(upcomingMatches);
 const recentMatches = cricket.cricket.recently_match();
 console.log(recentMatches);
 ```
+
+```javascript
+const cricket = require('@darkside-developers/cricket-details');
+
+const upcomingMatches = cricket.cricket.upcoming_match();
+console.log(upcomingMatches);
+```
+
+```javascript
+{
+  "status": true,
+  "creator": {
+    "name": "DarkWinzo",
+    "github": "@DarkWinzo"
+  },
+  "upcoming": {
+    "series": "Upcoming Series",
+    "match": [
+      {
+        "header": "Match Header 1",
+        "team_a": "Team A",
+        "team_b": "Team B",
+        "status": "Upcoming",
+        "link": "https://www.cricbuzz.com/upcoming-match1"
+      },
+      {
+        "header": "Match Header 2",
+        "team_a": "Team C",
+        "team_b": "Team D",
+        "status": "Upcoming",
+        "link": "https://www.cricbuzz.com/upcoming-match2"
+      },
+      ...
+    ]
+  }
+}
+```
