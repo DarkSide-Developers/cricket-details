@@ -13,9 +13,6 @@ npm install @darkside-developers/cricket-details
 
 const cricket = require('@darkside-developers/cricket-details');
 
-// Get match details
-const matchDetails = cricket.cricket.match_url();
-console.log(matchDetails);
 
 // Get live score
 const liveScore = cricket.cricket.live_score('https://www.example.com/live-match');
@@ -39,6 +36,7 @@ console.log(recentMatches);
 ```
 
 ```javascript
+// Get match details
 const cricket = require('@darkside-developers/cricket-details');
 
 const upcomingMatches = cricket.cricket.upcoming_match();
