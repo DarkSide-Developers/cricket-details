@@ -36,8 +36,9 @@ console.log(upcomingMatches);
 // Get recent matches
 const recentMatches = cricket.cricket.recently_match();
 console.log(recentMatches);
+```
 
-
+```javascript
 const cricket = require('@darkside-developers/cricket-details');
 
 // Example 1: Get live score for a match
@@ -47,3 +48,4 @@ console.log(liveScore);
 // Example 2: Get recent matches
 const recentMatches = cricket.cricket.recently_match();
 console.log(recentMatches);
+```
