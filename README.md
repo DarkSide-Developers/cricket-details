@@ -133,3 +133,69 @@ console.log(upcomingMatches);
   }
 }
 ```
+
+### Cricket Match News
+```javascript
+// Get Cricket Matches News
+const { cricket } = require('@darkside-developers/cricket-details');
+
+const news = cricket.match_news();
+console.log(news);
+```
+```javascript
+{
+  "status": true,
+  "creator": {
+    "name": "DarkWinzo",
+    "github": "@DarkWinzo"
+  },
+  "news": [
+    {
+      "headline": "News 1",
+      "image": "https://m.cricbuzz.com/a/img/v1/595x396/news1.jpg",
+      "link": "https://m.cricbuzz.com/news1"
+    },
+    {
+      "headline": "News 2",
+      "image": "https://m.cricbuzz.com/a/img/v1/595x396/news2.jpg",
+      "link": "https://m.cricbuzz.com/news2"
+    },
+    ...
+  ]
+}
+```
+
+### Feature Match Details
+```javascript
+// Get Cricket Matches News
+const { cricket } = require('@darkside-developers/cricket-details');
+
+const featuredMatches = cricket.cricket.feature_match();
+console.log(featuredMatches);
+```
+```javascript
+{
+  "status": true,
+  "creator": {
+    "name": "DarkWinzo",
+    "github": "@DarkWinzo"
+  },
+  "featured": [
+    {
+      "header": "Match Header 1",
+      "team_a": "Team A",
+      "team_b": "Team B",
+      "status": "In Progress",
+      "link": "https://www.cricbuzz.com/feature-match1"
+    },
+    {
+      "header": "Match Header 2",
+      "team_a": "Team C",
+      "team_b": "Team D",
+      "status": "Upcoming",
+      "link": "https://www.cricbuzz.com/feature-match2"
+    },
+    ...
+  ]
+}
+```
