@@ -8,7 +8,6 @@
 
 [![npm](https://img.shields.io/npm/v/@darkside-developers/cricket-details)](https://www.npmjs.com/package/@darkside-developers/cricket-details)
 [![npm](https://img.shields.io/npm/dt/@darkside-developers/cricket-details)](https://www.npmjs.com/package/@darkside-developers/cricket-details)
-![npm](https://img.shields.io/npm/l/@darkside-developers/cricket-details)
 
 
 A Node.js library for fetching cricket match details, live scores, match news, featured matches, upcoming matches, and recently concluded matches.
@@ -16,14 +15,14 @@ A Node.js library for fetching cricket match details, live scores, match news, f
 ## Installation & Result
 
 ### Live Matches Urls
-```javascript
+```typescript
 // Get Live matches urls
 const { cricket } = require('@darkside-developers/cricket-details');
 
 const matchDetails = cricket.match_url();
 console.log(matchDetails);
 ```
-```javascript
+```typescript
 [
   {
     "status": true,
@@ -52,14 +51,14 @@ console.log(matchDetails);
 ```
 
 ### Live Matches Score
-```javascript
+```typescript
 // Get Live matches score
 const { cricket } = require('@darkside-developers/cricket-details');
 
 const liveScore = cricket.live_score('https://www.example.com/live-match');
 console.log(liveScore);
 ```
-```javascript
+```typescript
 {
   "status": true,
   "creator": {
@@ -103,14 +102,14 @@ console.log(liveScore);
 ```
 
 ### Recently Match Details
-```javascript
+```typescript
 // Get Recently match details
 const { cricket } = require('@darkside-developers/cricket-details');
 
 const upcomingMatches = cricket.upcoming_match();
 console.log(upcomingMatches);
 ```
-```javascript
+```typescript
 {
   "status": true,
   "creator": {
@@ -141,14 +140,14 @@ console.log(upcomingMatches);
 ```
 
 ### Cricket Match News
-```javascript
+```typescript
 // Get Cricket Matches News
 const { cricket } = require('@darkside-developers/cricket-details');
 
 const news = cricket.match_news();
 console.log(news);
 ```
-```javascript
+```typescript
 {
   "status": true,
   "creator": {
@@ -172,14 +171,14 @@ console.log(news);
 ```
 
 ### Feature Match Details
-```javascript
+```typescript
 // Get Cricket Feature Matches Details
 const { cricket } = require('@darkside-developers/cricket-details');
 
 const featuredMatches = cricket.feature_match();
 console.log(featuredMatches);
 ```
-```javascript
+```typescript
 {
   "status": true,
   "creator": {
@@ -207,14 +206,14 @@ console.log(featuredMatches);
 ```
 
 ### Upcoming Match Details
-```javascript
+```typescript
 // Get Cricket Upcoming Matches Details
 const { cricket } = require('@darkside-developers/cricket-details');
 
 const upcomingMatches = cricket.upcoming_match();
 console.log(upcomingMatches);
 ```
-```javascript
+```typescript
 {
   "status": true,
   "creator": {
