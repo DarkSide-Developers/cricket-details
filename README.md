@@ -244,9 +244,6 @@ console.log(upcomingMatches);
 }
 ```
 
-# Project Name
-
-Brief description or introduction of your project.
 
 ## License
 
@@ -259,10 +256,6 @@ Feel free to open an issue or create a pull request for any improvements or bug 
 ## Versioning
 
 We use Semantic Versioning for versioning. For the versions available, see the tags on this repository.
-
-## Changelog
-
-See [CHANGELOG.md](CHANGELOG.md) for details on what has changed.
 
 ## Contact
 
