@@ -5,6 +5,6 @@
  * @Project_Details : Cricket Unofficial Scraper
  */
 
-const { cricket } = require('./cricket/data.js')
+const { cricket } = require('./cricket/data')
 
 module.exports = { cricket };
