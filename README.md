@@ -167,10 +167,10 @@ console.log(news);
 
 ### Feature Match Details
 ```javascript
-// Get Cricket Matches News
+// Get Cricket Feature Matches Details
 const { cricket } = require('@darkside-developers/cricket-details');
 
-const featuredMatches = cricket.cricket.feature_match();
+const featuredMatches = cricket.feature_match();
 console.log(featuredMatches);
 ```
 ```javascript
@@ -199,3 +199,42 @@ console.log(featuredMatches);
   ]
 }
 ```
+
+### Upcoming Match Details
+```javascript
+// Get Cricket Upcoming Matches Details
+const { cricket } = require('@darkside-developers/cricket-details');
+
+const upcomingMatches = cricket.upcoming_match();
+console.log(upcomingMatches);
+```
+```javascript
+{
+  "status": true,
+  "creator": {
+    "name": "DarkWinzo",
+    "github": "@DarkWinzo"
+  },
+  "upcoming": {
+    "series": "Upcoming Series",
+    "match": [
+      {
+        "header": "Match Header 1",
+        "team_a": "Team A",
+        "team_b": "Team B",
+        "status": "Upcoming",
+        "link": "https://www.cricbuzz.com/upcoming-match1"
+      },
+      {
+        "header": "Match Header 2",
+        "team_a": "Team C",
+        "team_b": "Team D",
+        "status": "Upcoming",
+        "link": "https://www.cricbuzz.com/upcoming-match2"
+      },
+      ...
+    ]
+  }
+}
+```
+
