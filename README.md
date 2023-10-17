@@ -1,6 +1,6 @@
 # @darkside-developers/cricket-details
 
-<a href="https://ibb.co/DWYF1v5"><img src="https://i.ibb.co/mT0KR26/pngimg-com-cricket-PNG104.png" alt="pngimg-com-cricket-PNG104" border="0"></a>
+![Logo]([https://example.com/path/to/your/logo.png](https://i.ibb.co/mT0KR26/pngimg-com-cricket-PNG104.png) "Logo Alt Text")
 
 [![npm](https://img.shields.io/npm/v/@darkside-developers/cricket-details)](https://www.npmjs.com/package/@darkside-developers/cricket-details)
 [![npm](https://img.shields.io/npm/dt/@darkside-developers/cricket-details)](https://www.npmjs.com/package/@darkside-developers/cricket-details)
