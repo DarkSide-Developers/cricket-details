@@ -245,7 +245,7 @@ console.log(upcomingMatches);
 ```
 ## Author
 
-- **Your Name**
+- **Dark_Winzo**
   - GitHub: [DarkWinzo](https://github.com/DarkWinzo)
   - Email: darkwinzo2240@gmail.com (optional)
 
