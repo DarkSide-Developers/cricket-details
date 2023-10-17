@@ -3,7 +3,7 @@
 
 <p align="center">
   <a href="" rel="noopener">
- <img width=100px height=100px src="https://i.ibb.co/mT0KR26/pngimg-com-cricket-PNG104.png" alt="Esana"></a>
+ <img width=180px height=180px src="https://i.ibb.co/mT0KR26/pngimg-com-cricket-PNG104.png" alt="@darkside-developers/cricket-details"></a>
 </p>
 
 [![npm](https://img.shields.io/npm/v/@darkside-developers/cricket-details)](https://www.npmjs.com/package/@darkside-developers/cricket-details)
