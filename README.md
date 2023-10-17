@@ -12,7 +12,13 @@
 
 A Node.js library for fetching cricket match details, live scores, match news, featured matches, upcoming matches, and recently concluded matches.
 
-## Installation & Result
+## Installation
+
+```bash
+npm install @darkside-developers/cricket-details
+```
+
+## Usage & Result
 
 ### Live Matches Urls
 ```typescript
