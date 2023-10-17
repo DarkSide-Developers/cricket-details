@@ -1,6 +1,10 @@
 # @darkside-developers/cricket-details
 
-![Logo]([https://example.com/path/to/your/logo.png](https://i.ibb.co/mT0KR26/pngimg-com-cricket-PNG104.png) "Logo Alt Text")
+
+<p align="center">
+  <a href="" rel="noopener">
+ <img width=100px height=100px src="https://i.ibb.co/mT0KR26/pngimg-com-cricket-PNG104.png" alt="Esana"></a>
+</p>
 
 [![npm](https://img.shields.io/npm/v/@darkside-developers/cricket-details)](https://www.npmjs.com/package/@darkside-developers/cricket-details)
 [![npm](https://img.shields.io/npm/dt/@darkside-developers/cricket-details)](https://www.npmjs.com/package/@darkside-developers/cricket-details)
