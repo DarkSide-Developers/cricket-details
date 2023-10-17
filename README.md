@@ -11,6 +11,7 @@ A Node.js library for fetching cricket match details, live scores, match news, f
 
 ### Live Matches Urls
 ```javascript
+// Get Live matches urls
 const { cricket } = require('@darkside-developers/cricket-details');
 
 const matchDetails = cricket.match_url();
@@ -46,13 +47,18 @@ console.log(matchDetails);
 
 ### Recently Match Details
 ```javascript
+```
+```javascript
+```
+
+### Recently Match Details
+```javascript
 // Get Recently match details
 const { cricket } = require('@darkside-developers/cricket-details');
 
 const upcomingMatches = cricket.upcoming_match();
 console.log(upcomingMatches);
 ```
-
 ```javascript
 {
   "status": true,
