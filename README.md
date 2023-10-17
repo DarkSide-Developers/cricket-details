@@ -45,10 +45,55 @@ console.log(matchDetails);
 ]
 ```
 
-### Recently Match Details
+### Live Matches Score
 ```javascript
+// Get Live matches score
+const { cricket } = require('@darkside-developers/cricket-details');
+
+const liveScore = cricket.live_score('https://www.example.com/live-match');
+console.log(liveScore);
 ```
 ```javascript
+{
+  "status": true,
+  "creator": {
+    "name": "DarkWinzo",
+    "github": "@DarkWinzo"
+  },
+  "result": {
+    "title": "Match Title",
+    "status": "In Progress",
+    "update": "Latest update here",
+    "current_score": "Team A: 100/2 (Overs: 10.5)",
+    "batsman": "Player 1: 50 (30 balls)",
+    "batsman_run": "50",
+    "balls_faced": "30",
+    "fours": "6",
+    "sixes": "2",
+    "sr": "166.67",
+    "batsman_two": "Player 2: 30 (25 balls)",
+    "batsman_two_run": "30",
+    "batsman_two_balls_faced": "25",
+    "batsman_two_fours": "3",
+    "batsman_two_sixes": "1",
+    "batsman_two_sr": "120.00",
+    "bowler_stats_1": "Bowler 1: 2/40",
+    "bowler_over": "4.5",
+    "bowler_runs": "40",
+    "bowler_wickets": "2",
+    "bowler_maiden": "0",
+    "bowler_stats_2": "Bowler 2: 1/20",
+    "batsman_stats_1": "Batsman 1: 20 (15 balls)",
+    "batsman_stats_2": "Batsman 2: 10 (8 balls)",
+    "highest_run_scorer": "Player 3: 60",
+    "highest_wicket_taker": "Bowler 3: 3/25",
+    "partnership": "Current Partnership: 80 runs (10.2 ov)",
+    "recent_balls": "Recent balls: WD 4 1 6 2",
+    "last_wicket": "Last wicket: Player 4 (Out: LBW, Bowler 4)",
+    "currenly_run_rate": "Current Run Rate: 7.69",
+    "commentary": "Latest commentary here"
+  }
+}
 ```
 
 ### Recently Match Details
