@@ -244,3 +244,29 @@ console.log(upcomingMatches);
 }
 ```
 
+# Project Name
+
+Brief description or introduction of your project.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contributing
+
+Feel free to open an issue or create a pull request for any improvements or bug fixes.
+
+## Versioning
+
+We use Semantic Versioning for versioning. For the versions available, see the tags on this repository.
+
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for details on what has changed.
+
+## Contact
+
+For any questions or feedback, feel free to reach out to the project creator:
+
+- Name: DarkWinzo
+- GitHub: [@DarkWinzo](https://github.com/DarkWinzo)
